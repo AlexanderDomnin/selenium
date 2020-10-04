@@ -10,3 +10,5 @@ def print_a(browser):
     alert_text = alert.text
     alert.accept()
     print('Код для Степика: ' + alert_text.split()[-1])
+def sum(y,z):
+    return(str(int(y)+int(z)))
