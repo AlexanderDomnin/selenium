@@ -2,28 +2,40 @@ from selenium import webdriver
 import time
 import math
 
-link = "http://suninjuly.github.io/huge_form.html"
+
+ # функция
+from Class import calc,print_a
+
 
 try:
     browser = webdriver.Chrome()
+
+    link = "http://suninjuly.github.io/math.html"
     browser.get(link)
-
-    elements = browser.find_elements_by_tag_name("input")
-    for element in elements:
-        element.send_keys("мм")
-
-    button = browser.find_element_by_css_selector("button.btn")
+    # Считываем текст
+    x_element = browser.find_element_by_css_selector("#input_value")
+    x = x_element.text
+    y = calc(x)
+    # Заполняем текстовое поле
+    input1 = browser.find_element_by_css_selector("#answer")
+    input1.send_keys(y)
+    #кликаем чекбоксы и баттоны
+    checkbox1 = browser.find_element_by_css_selector("[for='robotCheckbox']")
+    checkbox1.click()
+    radiobutton = browser.find_element_by_css_selector("#robotsRule")
+    radiobutton.click()
+    # Отправляем заполненную форму
+    button = browser.find_element_by_xpath("//*[@type='submit']")
     button.click()
-    alert = browser.switch_to.alert
-    alert_text = alert.text
-    alert.accept()
-
-    print(alert_text.split()[-1])
+    # выводим результат
+    result_text = y
+    print('Результат вычислений:'+result_text.split()[-1])
+    #Алерт
+    print_a(browser)
 
 finally:
-    # успеваем скопировать код за 30 секунд
-    time.sleep(30)
+    # ожидание чтобы визуально оценить результаты прохождения скрипта
+    time.sleep(5)
     # закрываем браузер после всех манипуляций
     browser.quit()
-
 # не забываем оставить пустую строку в конце файла
