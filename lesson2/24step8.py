@@ -6,7 +6,6 @@ from Class import calc,print_a
 import math
 import time
 
-
 b = webdriver.Chrome()
 link = 'http://suninjuly.github.io/explicit_wait2.html'
 b.get(link)
