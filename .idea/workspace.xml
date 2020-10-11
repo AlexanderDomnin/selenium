@@ -24,9 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/23step3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/23step6.py" afterDir="false" />
+    <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="10102020">
+      <change afterPath="$PROJECT_DIR$/lesson2/24step6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/24step8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,28 +69,7 @@
       <recent name="C:\Users\Тестировщик\PycharmProjects\pythonProject\selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.23step6">
-    <configuration name="22step8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/22step8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.24step8">
     <configuration name="23step3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="24step6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +120,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/lesson11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/24step6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="24step8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/24step8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.24step8" />
+        <item itemvalue="Python.24step6" />
         <item itemvalue="Python.23step6" />
         <item itemvalue="Python.23step3" />
         <item itemvalue="Python.lesson22step3 (1)" />
-        <item itemvalue="Python.lesson11" />
-        <item itemvalue="Python.22step8" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +194,21 @@
       <option name="presentableId" value="Default" />
       <updated>1601804781875</updated>
     </task>
+    <task id="LOCAL-00001" summary="10102020">
+      <created>1602334319233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602334319233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="10102020">
+      <created>1602334403302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602334403302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +221,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10102020" />
+    <option name="LAST_COMMIT_MESSAGE" value="10102020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601805983025">
@@ -216,22 +236,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601807660024" />
-    <state width="938" height="275" key="GridCell.Tab.0.bottom" timestamp="1602334152962">
+    <state width="936" height="280" key="GridCell.Tab.0.bottom" timestamp="1602413135052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602334152962" />
-    <state width="938" height="275" key="GridCell.Tab.0.center" timestamp="1602334152962">
+    <state width="936" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
+    <state width="936" height="280" key="GridCell.Tab.0.center" timestamp="1602413135052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602334152962" />
-    <state width="938" height="275" key="GridCell.Tab.0.left" timestamp="1602334152962">
+    <state width="936" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
+    <state width="936" height="280" key="GridCell.Tab.0.left" timestamp="1602413135052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602334152962" />
-    <state width="938" height="275" key="GridCell.Tab.0.right" timestamp="1602334152962">
+    <state width="936" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
+    <state width="936" height="280" key="GridCell.Tab.0.right" timestamp="1602413135052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602334152962" />
+    <state width="936" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1601804907777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
