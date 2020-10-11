@@ -25,7 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="Скрипты по Селениуму 11.10.20 'Ожидание элементов'" />
+    <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="Скрипты по Селениуму 11.10.20 'Ожидание элементов'">
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson6_step4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson7_step4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson8_step4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson8_step4.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602413539935</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Скрипты по Селениуму 11.10.20 'Ожидание элементов'">
+      <created>1602413871314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602413871314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,29 +280,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601807660024" />
-    <state width="936" height="280" key="GridCell.Tab.0.bottom" timestamp="1602413135052">
+    <state width="936" height="280" key="GridCell.Tab.0.bottom" timestamp="1602413959717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
-    <state width="936" height="280" key="GridCell.Tab.0.center" timestamp="1602413135052">
+    <state width="936" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602413959717" />
+    <state width="936" height="280" key="GridCell.Tab.0.center" timestamp="1602413959717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
-    <state width="936" height="280" key="GridCell.Tab.0.left" timestamp="1602413135052">
+    <state width="936" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602413959717" />
+    <state width="936" height="280" key="GridCell.Tab.0.left" timestamp="1602413959717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
-    <state width="936" height="280" key="GridCell.Tab.0.right" timestamp="1602413135052">
+    <state width="936" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602413959717" />
+    <state width="936" height="280" key="GridCell.Tab.0.right" timestamp="1602413959717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602413135052" />
+    <state width="936" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602413959717" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1601804907777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601804907777" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602334324299">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602413875229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602334324299" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602413875229" />
   </component>
 </project>
