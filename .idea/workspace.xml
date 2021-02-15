@@ -26,16 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="Add new homeworks 11/10">
-      <change afterPath="$PROJECT_DIR$/lesson3/33.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_38.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture_autouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_fix10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_fix10a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_fix9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_task_run_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/test_xfail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/32step6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/test_36.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602430600361</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Обновления по 3 уроку, фикстуры">
+      <created>1611174100690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611174100690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,24 +280,29 @@
     <MESSAGE value="Скрипты по Селениуму 11.10.20 'Ожидание элементов'" />
     <MESSAGE value="11.10.20 'Изменения по курсу, апдейт для коммита'" />
     <MESSAGE value="Add new homeworks 11/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new homeworks 11/10" />
+    <MESSAGE value="Обновления по 3 уроку, фикстуры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновления по 3 уроку, фикстуры" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1611170225711">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1611174219162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611170225711" />
-    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1611170225710">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219162" />
+    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1611174219162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611170225710" />
-    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1611170225710">
+    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219162" />
+    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1611174219161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611170225710" />
-    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1611170225710">
+    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219161" />
+    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1611174219162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611170225710" />
+    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219162" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611174104781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611174104781" />
   </component>
 </project>
