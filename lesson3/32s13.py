@@ -3,6 +3,7 @@ from selenium import webdriver
 import math
 
 
+
 class Test11(unittest.TestCase):
     def test_1(self):
         link = "http://suninjuly.github.io/registration1.html"

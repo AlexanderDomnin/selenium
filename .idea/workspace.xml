@@ -25,14 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="Add new homeworks 11/10">
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fix10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fix10a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fix9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_task_run_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/test_xfail.py" afterDir="false" />
+    <list default="true" id="97790061-5358-490c-ab45-027af86131ee" name="Default Changelist" comment="Параметризация и большой тест пункта 3.6">
+      <change afterPath="$PROJECT_DIR$/lesson3/test_fixture7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/tt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenium.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/32s13.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/32s13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/test8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/test8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +61,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson3/test8.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -74,7 +73,7 @@
       <recent name="C:\Users\Тестировщик\PycharmProjects\pythonProject\selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.33">
+  <component name="RunManager" selected="Python tests.pytest in test8.py">
     <configuration name="33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,6 +116,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/test8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_36" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,41 +158,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for 32s13.Test11" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;32s13.Test11&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/tt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in 32s13.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test8.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Тестировщик\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson3/32s13.py&quot;" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson3/test8.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.33" />
+      <item itemvalue="Python.lesson11" />
+      <item itemvalue="Python.test8" />
+      <item itemvalue="Python.test_36" />
+      <item itemvalue="Python.tt" />
+      <item itemvalue="Python tests.pytest in test8.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test8" />
+        <item itemvalue="Python.tt" />
         <item itemvalue="Python.33" />
         <item itemvalue="Python.test_36" />
         <item itemvalue="Python.lesson11" />
-        <item itemvalue="Python tests.Unittests in 32s13.py" />
-        <item itemvalue="Python tests.Unittests for 32s13.Test11" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611174100690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="15/02/21 - learn marks Pytest">
+      <created>1613414139217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613414139217</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Параметризация и большой тест пункта 3.6">
+      <created>1613589156604</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613589156604</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,28 +332,54 @@
     <MESSAGE value="11.10.20 'Изменения по курсу, апдейт для коммита'" />
     <MESSAGE value="Add new homeworks 11/10" />
     <MESSAGE value="Обновления по 3 уроку, фикстуры" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновления по 3 уроку, фикстуры" />
+    <MESSAGE value="15/02/21 - learn marks Pytest" />
+    <MESSAGE value="Параметризация и большой тест пункта 3.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Параметризация и большой тест пункта 3.6" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1611174219162">
+    <state x="414" y="175" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613587697955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219162" />
-    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1611174219162">
+    <state x="414" y="175" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613587697955" />
+    <state x="689" y="370" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1613587687923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219162" />
-    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1611174219161">
+    <state x="689" y="370" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613587687923" />
+    <state x="827" y="318" key="EnvironmentVariablesDialog" timestamp="1613587619258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219161" />
-    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1611174219162">
+    <state x="827" y="318" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613587619258" />
+    <state x="740" y="323" key="FileChooserDialogImpl" timestamp="1613587696004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611174219162" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611174104781">
+    <state x="740" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613587696004" />
+    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1613589262666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611174104781" />
+    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613589262666" />
+    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1613589262666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613589262666" />
+    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1613589262665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613589262665" />
+    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1613589262666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613589262666" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1613587396374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613587396374" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613589160825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613589160825" />
+    <state x="1000" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1613414131660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1000" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613414131660" />
   </component>
 </project>
