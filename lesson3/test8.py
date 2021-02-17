@@ -26,8 +26,9 @@ def test_answer_link(browser,stepik):
     button = WebDriverWait(browser, 5).until( EC.element_to_be_clickable((By.CLASS_NAME, "submit-submission")))
     button.click()
     hint = WebDriverWait(browser,5).until(EC.visibility_of_element_located((By.TAG_NAME ,"pre")))
-    assert hint.text == "Correct!", \
-        f"{hint}.text"
+    hint_text = hint.text
+    assert hint_text == "Correct!", \
+        f"{hint_text}"
 
 
 
